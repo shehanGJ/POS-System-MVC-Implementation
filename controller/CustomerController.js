@@ -189,6 +189,10 @@ export class CustomerController {
     async getTotalCustomers() {
         return customers_db.length;
     }
+
+    async getCustomerCount() {
+        return customers_db.length;
+    }
 }
 
 

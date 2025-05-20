@@ -185,6 +185,10 @@ export class OrderController {
         const today = new Date().toISOString().split('T')[0];
         return order_db.filter(order => order.date.startsWith(today)).length;
     }
+
+    async getOrderCount() {
+        return order_db.length;
+    }
 }
 
 

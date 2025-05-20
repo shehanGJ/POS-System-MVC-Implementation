@@ -44,7 +44,9 @@
               <label for="item-qty" class="form-label">Quantity</label>
               <input type="number" class="form-control" id="item-qty" min="1">
             </div>
-            <button type="button" class="btn btn-primary" id="add-to-cart">Add to Cart</button>
+            <button type="button" class="btn btn-update" id="add-to-cart">
+              <i class="bi bi-cart-plus"></i> Add to Cart
+            </button>
           </div>
         </div>
       </div>
@@ -76,8 +78,12 @@
               </table>
             </div>
             <div class="d-flex justify-content-between mt-3">
-              <button type="button" class="btn btn-danger" id="clear-cart">Clear Cart</button>
-              <button type="button" class="btn btn-success" id="place-order">Place Order</button>
+              <button type="button" class="btn btn-delete" id="clear-cart">
+                <i class="bi bi-trash"></i> Clear Cart
+              </button>
+              <button type="button" class="btn btn-order" id="place-order">
+                <i class="bi bi-check-circle"></i> Place Order
+              </button>
             </div>
           </div>
         </div>

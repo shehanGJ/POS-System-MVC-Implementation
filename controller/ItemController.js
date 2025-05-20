@@ -183,6 +183,10 @@ export class ItemController {
     async getTotalItems() {
         return item_db.length;
     }
+
+    async getItemCount() {
+        return item_db.length;
+    }
 }
 
 
