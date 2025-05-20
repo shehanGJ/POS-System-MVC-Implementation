@@ -1,0 +1,12 @@
+{
+  "name": "pos-system-mvc",
+  "version": "1.0.0",
+  "description": "POS System using MVC pattern",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+} 
